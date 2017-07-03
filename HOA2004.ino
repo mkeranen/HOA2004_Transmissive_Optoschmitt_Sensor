@@ -30,9 +30,11 @@ void pathStatus(void){
   digitalWrite(13, pathClear);
   if (pathClear == 1){
     Serial.println("Path Clear");
+    //Put code that you want to execute when pathway is clear here
   }
   else{
     Serial.println("Path Obstructed");
+    //Put code that you want to execute when pathway is obstructed here
   }
 }
 
