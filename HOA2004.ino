@@ -24,7 +24,7 @@
 
 
 //Function: Reads in status of IR beam, outputs status to Serial Monitor & Pin 13 LED
-int pathClear;
+bool pathClear;
 void pathStatus(void){
   pathClear = digitalRead(2);
   digitalWrite(13, pathClear);
